@@ -1,0 +1,55 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
+  "tabnine.experimentalAutoImports": true,
+  "solidity.telemetry": true,
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "window.zoomLevel": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontSize": 16,
+  "workbench.editor.autoLockGroups": {
+    "default": true
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["e"],
+      "after": ["$"]
+    },
+    {
+      "before": ["q"],
+      "after": ["_"]
+    },
+    {
+      "before": ["f"],
+      "after": ["*"]
+    },
+    {
+      "before": ["d", "f"],
+      "after": ["#"]
+    },
+    {
+      "before": ["y", "w"],
+      "after": ["v", "i", "w"]
+    }
+  ],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "go.toolsManagement.autoUpdate": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.minimap.enabled": false,
+  "pieces.cloudCapabilities": "Blended",
+  "pieces.telemetry": true,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "pieces.OS.launchOnStartup": "Yes",
+  "typescript.updateImportsOnFileMove.enabled": "never"
+}
